@@ -1,0 +1,8 @@
+name: SkinViewer
+version: '${project.version}'
+main: com.chillcraft.skinviewer.skinviewer.SkinViewer
+api-version: 1.13
+depend: [ SkinsRestorer ]
+commands:
+  getskinurl:
+    usage: /getskinurl name
